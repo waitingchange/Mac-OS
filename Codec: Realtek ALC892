@@ -1,0 +1,35 @@
+Address: 0
+Vendor Id: 0x10ec0892
+0x12  0x90a60150: [Fixed] Mic at Int N/A  内置麦克风      
+0x14  0x90170110: [Fixed] Speaker at Int N/A 内置扬声器
+0x17. 0x01011020: [Jack] Line Out at Ext Rear
+0x18. 0x01a11060: [Jack] Mic at Ext Rear 外置麦克风插口
+0x1b. 0x01211030: [Jack] HP Out at Ext Rear 耳机扬声器
+0x1e. 0x01441140: [Jack] SPDIF Out at Ext Rear
+
+
+
+
+0x12  50 01 a6 90: [Fixed] Mic at Int N/A
+0x14  10 01 17 90: [Fixed] Speaker at Int N/A
+0x17  20 10 01 01: [Jack] Line Out at Ext Rear
+0x18  60 10 a1 01: [Jack] Mic at Ext Rear
+0x1b  30 10 21 01: [Jack] HP Out at Ext Rear
+0x1e  40 11 44 01: [Jack] SPDIF Out at Ext Rear
+
+
+
+01271c50 01271d01 01271ea6 01271f90 01471c10 01471d01 01471e17 01471f90 01771c20 01771d10 01771e01 01771f01 01871c60 01871d10 01871ea1 01871f01 01b71c30 01b71d10 01b71e21 01b71f01 01e71c40 01e71d11 01e71e44 01e71f01 01470C02
+
+
+Node 0x22 [Audio Mixer] wcaps 0x20010b: Stereo Amp-In
+
+Mic at Int N/A  ------- 09>22>12
+Speaker at Int N/A-----------14 > c > 2
+Mic at Ext Rear  ---------- 08>23>18- 
+HP Out at Ext Rear 耳机扬声器  ---- 1b > 0c >02
+Line Out at Ext Rear ----- 17 > 0x0f > 05
+SPDIF Out at Ext Rear ----- 1e >  0x06 > 
+
+
+<01871c40 01871d70 01871e21 01871f01 01a71c30 01a71d01 01a71e13 01a71f90 01971c10 01971d31 01971e81 01971f01 01571c50 01571d41 01571e01 01571f01 01f71c20 01f71de1 01f71ec5 01f71f01 01e71c60 01e71de1 01e71e45 01e71f01 01471cf0 01471d00 01471e00 01471f40 01671cf0 01671d00 01671e00 01671f40 01771cf0 01771d00 01771e00 01771f40 01b71cf0 01b71d00 01b71e00 01b71f40 01c71cf0 01c71d00 01c71e00 01c71f40 01d71cf0 01d71d00 01d71e00 01d71f40>
